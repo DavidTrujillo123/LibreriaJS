@@ -21,3 +21,5 @@ app.get('*/*', function (req, res) {
 })
 app.listen(app.get('port'))
 console.log ('Direccion de acceso: \nhttps://localhost:'+app.get('port'))
+
+module.exports = app
